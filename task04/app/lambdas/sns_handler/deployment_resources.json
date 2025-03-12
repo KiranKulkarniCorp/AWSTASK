@@ -6,15 +6,13 @@
     "custom_policies": [
       "lambda-basic-execution"
     ],
-    "policy": [
+    "policy":[
       {
-        "Effect": "Allow",
-        "Action": [
+        "Effect":"Allow",
+        "Action":[
           "sns:Subscribe",
-          "sns:Publish",
-          "sns:ListTopics"
-        ],
-        "Resource": "*"
+          "sns:Publish"
+        ]
       }
     ],
     "tags": {}
